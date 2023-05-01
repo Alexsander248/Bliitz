@@ -1,0 +1,156 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./main_index.css");
+@import url("./main2_index.css");
+
+.parallax {
+    background-attachment: fixed;
+    background-position-y: 5vh;
+}  
+
+.preencher {
+    background-color: #b0d5da;
+}
+
+.texto {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    color: #48b2c0;
+}
+
+.text-h1 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2%;
+    color: black;
+}
+
+.paragrafo {
+    font-size: 1.8rem;
+    color: #1e1c2a;
+    margin-bottom: 1rem;
+}
+
+.text-h3{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #48b2c0;
+}
+
+.quem_somos {
+    background-image: url('../img/quem_somos4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.onde_estamos {
+    background-image: url('../img/onde_estamos2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.foto3 {            
+    width: 100%;
+    height: 600px;
+}
+
+
+.nossa_equipe {
+    background-image: url('../img/54711.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/*Parte responsiva*/
+
+@media (max-width: 425px){
+
+    .login{
+        display: none;
+    }
+
+    .button {
+        padding: 0.60rem 1rem;
+    }
+
+    .home-btn {
+       font-size: 0.75rem;
+     
+    }
+
+    .parallax {
+        background-position-y: 15vh;
+        height: 200px !important;
+    }
+
+    .texto{
+        gap: 0rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 513px) {
+    .login {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px){
+
+    .parallax {
+        background-position-y: 15vh;
+        height: 350px !important;
+
+    }
+
+    .texto{
+        gap: 0rem;
+        flex-direction: column;
+    }
+
+    
+}
+
+@media (max-width: 1024px){
+    .parallax {
+        background-position-y: 15vh;
+        height: 470px;
+    }
+
+   .foto3 {
+        width: 25rem;
+        height: auto;
+   }
+
+   .text-h1 {
+    font-size: 1.25rem;
+   }
+
+   .text-h3 {
+    font-size: 2rem;
+   }
+
+   .paragrafo {
+    font-size: 1.5rem;
+   }
+}
+

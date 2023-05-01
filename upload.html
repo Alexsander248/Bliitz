@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/upload.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/55bb241f8a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/imagem3.ico" type="image/x-icon">
+    <title>Bliitz - Upload</title>
+</head>
+
+<body>
+
+    <!-- Parte Superior do site -->
+    <header class="menu">
+        <div class="menu__logo">
+            <img class="menu__logo__img" src="img/imagem3.png">
+            <a href="index.html" class="menu__logo__titulo"><span>B</span>l<span>ii</span>t<span>z</span></a>
+        </div>
+        <nav class="navigation">
+            <ul class="nav-menu">
+                <li class="item"><a href="#">Quem somos</a> </li>
+                <li class="item"><a href="#">Contato</a> </li>
+                <li class="item button"><a class="home-btn" href="#">Comece um Projeto</a></li>
+                <li class="item login">
+                    <a href="./usuario.html"><div class="logado"><i class="fa-solid fa-user"></i><p id="nome_usuario"></p></div></a>
+                </li>
+            </ul>
+        </nav>
+    <!-- Fim Parte Superior do site -->
+
+    </header>
+    <main class="content">
+
+    <!-- Primeira Parte do site -->
+        <section class="home">
+            <div class="text">
+                <h1 class="titulo">Upload do arquivo</h1>
+                <h3 class="subtitulo">Clique aqui e adicione seus arquivos</h3>
+                <div class="upload">
+                    <label for="arquivo">Adicionar arquivos</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+            </div>
+            <img class="content__img" src="img/drag_drop.svg" class="up" />
+        </section>
+    <!-- Fim Primeira Parte do site -->
+
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="row_footer">
+                <div class="footer-col">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Ouvidoria</a></li>
+                        <li><a href="#">Atendimento ao Cliente</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Sobre</h3>
+                    <ul>
+                        <li><a href="#">Nosso time</a></li>
+                        <li><a href="#">Endereço</a></li>
+                        <li><a href="#">Empresa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Ajuda</h3>
+                    <ul>
+                        <li><a href="#">Tutoriais</a></li>
+                        <li><a href="#">Base Conhecimento</a></li>
+                        <li><a href="#">Reportar</a></li>
+                    </ul>
+                </div>
+                <div class="redes_sociais__div">
+                    <a href="https://www.instagram.com/bliitz_2023/"> <img src="img/instagram.png"  class="redes_sociais" /> </a>
+                    <img src="img/twitter.png" class="redes_sociais" />
+                    <img src="img/facebook.png" class="redes_sociais" />
+                    <img src="img/whatsapp.png" class="redes_sociais" />
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Rodapé -->
+</body>
+<script src="./js/nomeUsuario.js"></script>
+</html>

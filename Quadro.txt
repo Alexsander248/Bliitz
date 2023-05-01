@@ -1,0 +1,22 @@
+Site pra ciração de site atraves de imagens. IDEIA
+
+Você mandaria uma imagem/foto para nós e nós criariamos um site baseado no que recebemos
+
+Dono do produto: André Luiz
+
+Mestre SCRUM: João
+
+DEV : André, Alexander, Eduardo e João
+
+Visão : Facilitar ao máximo a criação de sites para pessoas leigas.
+
+Público : Tudo e todas as pessoas interessadas a terem um site de forma simples e fácil.
+
+Necessidades : Programadores bons e capazes de densevolver sites webs completos, com boas praticas
+e rápido.
+
+Produto : Página Web de interface fácil e amigavel ao usuário
+	    -Talvez um app futuramente que possibilite a comunicação com o cliente.
+	    
+Metas de negocio : Renda Através de transações pelo proprio site. 
+		  	 Ver os clientes felizes com seus sites do jeito que eles queriam, ou ate mesmo melhor.
